@@ -144,5 +144,3 @@ CI is configured for fixture tests and checks. A remote GitHub run has not been 
 Historical public motor data is not representative of Allianz Partners or contemporary assistance claims. Missing point-in-time histories and maturity information prevent claims of early final-cost prediction. Extreme losses dominate uncertainty, and policy descriptors omit incident details. Geographic/demographic proxies, model drift, and workflow impact need review before any real application.
 
 Prioritize better timestamps, outcome definitions, and admissible incident features before more models. Then consider chronological validation, uncertainty estimation, and a measured analyst review study. An LLM, Docker, or cloud layer is not required for this result; no text task presently justifies an LLM.
-
-Built with AI assistance. The [review guide](docs/review_guide.md) supports explaining the design yourself; interview readiness remains a human review milestone.

@@ -1,0 +1,14 @@
+{
+  "claims": [
+    {
+      "VehPower": 7.0,
+      "VehAge": 5.0,
+      "DrivAge": 38.0,
+      "Density": 1200.0,
+      "Area": "D",
+      "VehBrand": "B1",
+      "VehGas": "Regular",
+      "Region": "Centre"
+    }
+  ]
+}

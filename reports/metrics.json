@@ -1,0 +1,154 @@
+{
+  "validation": {
+    "regression": {
+      "mean_baseline": {
+        "mae": 2036.299229781674,
+        "rmse": 7672.217698095105,
+        "gamma_deviance": 1.4518405870758628,
+        "mean_signed_error": 539.5555563894924,
+        "predicted_to_observed_total": 1.285535870172546
+      },
+      "gamma_glm": {
+        "mae": 1976.854764271779,
+        "rmse": 7675.513656167787,
+        "gamma_deviance": 1.4549847474315685,
+        "mean_signed_error": 456.5389750953601,
+        "predicted_to_observed_total": 1.2416030230396389
+      },
+      "hist_boost_mean": {
+        "mae": 1902.934908011125,
+        "rmse": 8016.658782187869,
+        "gamma_deviance": 1.4688817194961434,
+        "mean_signed_error": 304.220810178552,
+        "predicted_to_observed_total": 1.1609953835712579
+      },
+      "median_reference_not_mean_estimator": {
+        "mae": 1205.2699679003022,
+        "rmse": 7686.793156670016,
+        "gamma_deviance": 1.6630001003233648,
+        "mean_signed_error": -717.6244316465256,
+        "predicted_to_observed_total": 0.6202290679417058
+      }
+    },
+    "classification": {
+      "prevalence_baseline": {
+        "average_precision": 0.09422205438066465,
+        "roc_auc": 0.5,
+        "brier": 0.08537757077866807,
+        "prevalence": 0.09422205438066465,
+        "cutoff": 0.09999370316730684,
+        "precision_at_cutoff": 0.09422205438066465,
+        "recall_at_cutoff": 1.0,
+        "f1_at_cutoff": 0.1722174288179465,
+        "review_fraction_at_cutoff": 1.0,
+        "reviewed": 1060,
+        "precision_at_20pct": 0.09056603773584905,
+        "recall_at_20pct": 0.19238476953907815
+      },
+      "logistic": {
+        "average_precision": 0.11855595834965563,
+        "roc_auc": 0.5527018180618064,
+        "brier": 0.08514965587152461,
+        "prevalence": 0.09422205438066465,
+        "cutoff": 0.1213910201350885,
+        "precision_at_cutoff": 0.12452830188679245,
+        "recall_at_cutoff": 0.26452905811623245,
+        "f1_at_cutoff": 0.16933932007697242,
+        "review_fraction_at_cutoff": 0.2001510574018127,
+        "reviewed": 1060,
+        "precision_at_20pct": 0.12452830188679245,
+        "recall_at_20pct": 0.26452905811623245
+      },
+      "hist_boost_classifier": {
+        "average_precision": 0.12482898241005942,
+        "roc_auc": 0.5616484166999833,
+        "brier": 0.08500910594291627,
+        "prevalence": 0.09422205438066465,
+        "cutoff": 0.12080929807357685,
+        "precision_at_cutoff": 0.12169811320754717,
+        "recall_at_cutoff": 0.25851703406813625,
+        "f1_at_cutoff": 0.16549069916613213,
+        "review_fraction_at_cutoff": 0.2001510574018127,
+        "reviewed": 1060,
+        "precision_at_20pct": 0.12169811320754717,
+        "recall_at_20pct": 0.25851703406813625
+      }
+    }
+  },
+  "test": {
+    "regression": {
+      "mean_baseline": {
+        "mae": 2283.7062828595112,
+        "rmse": 20633.55198225403,
+        "gamma_deviance": 1.665755370684304,
+        "mean_signed_error": 279.19743250155824,
+        "predicted_to_observed_total": 1.1298603245793097
+      },
+      "gamma_glm": {
+        "mae": 2221.432364919879,
+        "rmse": 20629.5220805165,
+        "gamma_deviance": 1.6371482807100752,
+        "mean_signed_error": 187.02248994003003,
+        "predicted_to_observed_total": 1.086987910417505
+      },
+      "hist_boost_mean": {
+        "mae": 2116.6346909290223,
+        "rmse": 20690.53169481383,
+        "gamma_deviance": 1.5974101810626251,
+        "mean_signed_error": 16.183844588912,
+        "predicted_to_observed_total": 1.0075274306515893
+      },
+      "median_reference_not_mean_estimator": {
+        "mae": 1458.5099107651415,
+        "rmse": 20654.829122435105,
+        "gamma_deviance": 2.1068531658106213,
+        "mean_signed_error": -977.9825555344597,
+        "predicted_to_observed_total": 0.5451207020182799
+      }
+    },
+    "classification": {
+      "prevalence_baseline": {
+        "average_precision": 0.09663945319916462,
+        "roc_auc": 0.5,
+        "brier": 0.08731152027737986,
+        "prevalence": 0.09663945319916462,
+        "cutoff": 0.09999370316730684,
+        "precision_at_cutoff": 0.09663945319916462,
+        "recall_at_cutoff": 1.0,
+        "f1_at_cutoff": 0.1762465373961219,
+        "review_fraction_at_cutoff": 1.0,
+        "reviewed": 1054,
+        "precision_at_20pct": 0.0967741935483871,
+        "recall_at_20pct": 0.20039292730844793
+      },
+      "logistic": {
+        "average_precision": 0.11348306592533165,
+        "roc_auc": 0.5499634159735934,
+        "brier": 0.08723366509191667,
+        "prevalence": 0.09663945319916462,
+        "cutoff": 0.1213910201350885,
+        "precision_at_cutoff": 0.12913223140495866,
+        "recall_at_cutoff": 0.2455795677799607,
+        "f1_at_cutoff": 0.16926201760324983,
+        "review_fraction_at_cutoff": 0.18378583633947218,
+        "reviewed": 1054,
+        "precision_at_20pct": 0.12998102466793168,
+        "recall_at_20pct": 0.2691552062868369
+      },
+      "hist_boost_classifier": {
+        "average_precision": 0.11336112030316041,
+        "roc_auc": 0.559019201246004,
+        "brier": 0.08725365815870637,
+        "prevalence": 0.09663945319916462,
+        "cutoff": 0.12080929807357685,
+        "precision_at_cutoff": 0.10985626283367557,
+        "recall_at_cutoff": 0.21021611001964635,
+        "f1_at_cutoff": 0.14430209035738367,
+        "review_fraction_at_cutoff": 0.18492500474653503,
+        "reviewed": 1054,
+        "precision_at_20pct": 0.11195445920303605,
+        "recall_at_20pct": 0.2318271119842829
+      }
+    }
+  }
+}

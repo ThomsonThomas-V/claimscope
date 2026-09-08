@@ -1,0 +1,10 @@
+{
+  "regression": "mean_baseline",
+  "classification": "hist_boost_classifier",
+  "regression_rule": "minimum validation Gamma deviance (conditional mean target)",
+  "classification_rule": "maximum validation average precision",
+  "high_cost_amount_threshold": 2806.9,
+  "high_cost_operator": ">",
+  "probability_cutoff": 0.12080929807357685,
+  "seed": 42
+}

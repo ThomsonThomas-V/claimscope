@@ -1,0 +1,28 @@
+{
+  "population": "training split only",
+  "rows": 15881,
+  "unique_policies": 14966,
+  "mean": 2429.179988036018,
+  "median": 1172.0,
+  "std": 35716.69143576055,
+  "min": 1.09,
+  "max": 4075400.56,
+  "quantiles": {
+    "0.5": 1172.0,
+    "0.9": 2806.9,
+    "0.95": 4915.91,
+    "0.99": 17693.544000000278
+  },
+  "top_decile_share_of_cost": 0.625023482704469,
+  "high_cost_prevalence": 0.09999370316730684,
+  "missing_predictors": {
+    "VehPower": 0,
+    "VehAge": 0,
+    "DrivAge": 0,
+    "Density": 0,
+    "Area": 0,
+    "VehBrand": 0,
+    "VehGas": 0,
+    "Region": 0
+  }
+}

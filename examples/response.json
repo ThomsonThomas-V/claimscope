@@ -1,0 +1,16 @@
+{
+  "predictions": [
+    {
+      "expected_recorded_amount": 2429.179988036018,
+      "high_cost_probability": 0.10864714246284471,
+      "flagged_at_validation_cutoff": false,
+      "warnings": []
+    }
+  ],
+  "regression_model": "mean_baseline",
+  "classification_model": "hist_boost_classifier",
+  "high_cost_amount_threshold": 2806.9,
+  "probability_cutoff": 0.12080929807357685,
+  "amount_unit": "source monetary units; currency not independently verified",
+  "interpretation": "Retrospective public-data demo; not verified final-cost or first-report prediction."
+}

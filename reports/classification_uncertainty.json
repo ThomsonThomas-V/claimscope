@@ -1,0 +1,14 @@
+{
+  "unit": "policy",
+  "repeats_used": 300,
+  "confidence": 0.95,
+  "average_precision": [
+    0.10078293722573876,
+    0.13150046705578272
+  ],
+  "ap_delta_vs_prevalence": [
+    0.008909033543361864,
+    0.03186760108949093
+  ],
+  "note": "Conditional on fitted model; not an operational-benefit interval."
+}

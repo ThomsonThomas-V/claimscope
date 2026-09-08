@@ -1,0 +1,14 @@
+{
+  "full_dataset_rows": 26444,
+  "api_smoke": "passed",
+  "rebuild_byte_identical": true,
+  "verified_sha256": {
+    "data/processed/modeling.csv": "cf64af37751bf87466ea5ed78c67c4fd66272f534f04ec65d3f08b8d2ae14653",
+    "reports/splits.csv": "064564e2fe4c4e74728dd5c439b36ca28326aeca5c44325dae4d23eada8d1f7f",
+    "reports/metrics.json": "d69abd60fd76249fd1ef6104c5280d228bb4efca76d8d144a5ec0e8d86892955",
+    "reports/selection.json": "4b79699800d2e3941d6bc9b7c11001f9ef2871144bea381f56b39807160215d0",
+    "reports/predictions.csv": "ecab6a73468b6997af1c7c7ae2ff74ccbd00cbc42149a4682cb8920c38923c16"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "model_sha256": "7b683c14031b9de3ab39f394b4373ca71241510d8044a4835d70289f757f4ac3"
+}

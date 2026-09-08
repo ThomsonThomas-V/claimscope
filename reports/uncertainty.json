@@ -1,0 +1,18 @@
+{
+  "repeats": 300,
+  "unit": "policy",
+  "confidence": 0.95,
+  "mae": [
+    1877.7988769746332,
+    3030.663057763285
+  ],
+  "mae_delta_vs_mean": [
+    0.0,
+    0.0
+  ],
+  "gamma_deviance_delta_vs_mean": [
+    0.0,
+    0.0
+  ],
+  "note": "Negative deltas favor selected model; conditional on this fitted model and split."
+}

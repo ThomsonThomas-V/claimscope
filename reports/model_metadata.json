@@ -1,0 +1,94 @@
+{
+  "regression": "mean_baseline",
+  "classification": "hist_boost_classifier",
+  "regression_rule": "minimum validation Gamma deviance (conditional mean target)",
+  "classification_rule": "maximum validation average precision",
+  "high_cost_amount_threshold": 2806.9,
+  "high_cost_operator": ">",
+  "probability_cutoff": 0.12080929807357685,
+  "seed": 42,
+  "sklearn_version": "1.9.0",
+  "features": [
+    "VehPower",
+    "VehAge",
+    "DrivAge",
+    "Density",
+    "Area",
+    "VehBrand",
+    "VehGas",
+    "Region"
+  ],
+  "training_rows": 15881,
+  "modeling_sha256": "cf64af37751bf87466ea5ed78c67c4fd66272f534f04ec65d3f08b8d2ae14653",
+  "target": "recorded positive claim amount in source monetary units",
+  "limitations": "Public historical data; no verified first-report timing or final settlement outcome.",
+  "numeric_training_ranges": {
+    "VehPower": [
+      4.0,
+      15.0
+    ],
+    "VehAge": [
+      0.0,
+      99.0
+    ],
+    "DrivAge": [
+      18.0,
+      99.0
+    ],
+    "Density": [
+      2.0,
+      27000.0
+    ]
+  },
+  "categories": {
+    "Area": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "VehBrand": [
+      "B1",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "VehGas": [
+      "Diesel",
+      "Regular"
+    ],
+    "Region": [
+      "Alsace",
+      "Aquitaine",
+      "Auvergne",
+      "Basse-Normandie",
+      "Bourgogne",
+      "Bretagne",
+      "Centre",
+      "Champagne-Ardenne",
+      "Corse",
+      "Franche-Comte",
+      "Haute-Normandie",
+      "Ile-de-France",
+      "Languedoc-Roussillon",
+      "Limousin",
+      "Lorraine",
+      "Midi-Pyrenees",
+      "Nord-Pas-de-Calais",
+      "Pays-de-la-Loire",
+      "Picardie",
+      "Poitou-Charentes",
+      "Provence-Alpes-Cotes-D'Azur",
+      "Rhone-Alpes"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "policy_rows": 677991,
+  "source_claim_rows": 26444,
+  "invalid_amount_rows": 0,
+  "orphan_claim_rows": 0,
+  "excluded_rows_union": 0,
+  "identical_policy_amount_pairs": 235,
+  "missing_predictors": {
+    "VehPower": 0,
+    "VehAge": 0,
+    "DrivAge": 0,
+    "Density": 0,
+    "Area": 0,
+    "VehBrand": 0,
+    "VehGas": 0,
+    "Region": 0
+  },
+  "note": "Identical policy/amount pairs retained: distinct claims may have equal costs.",
+  "modeling_rows": 26444,
+  "matched_amount_total": 59909216.5,
+  "split_rows": {
+    "train": 15881,
+    "validation": 5296,
+    "test": 5267
+  },
+  "split_policies": {
+    "test": 4989,
+    "train": 14966,
+    "validation": 4989
+  },
+  "modeling_sha256": "cf64af37751bf87466ea5ed78c67c4fd66272f534f04ec65d3f08b8d2ae14653"
+}
